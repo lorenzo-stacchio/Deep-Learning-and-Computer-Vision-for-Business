@@ -1,0 +1,26 @@
+<annotation>
+  <folder>images</folder>
+  <filename>IMG_20210517_235430</filename>
+  <path>C:\Users\USER\Documents\Dzakwan\bangkit\grab&amp;go\Dataset\chitato-resize\images\IMG_20210517_235430.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>chitato</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>147</xmin>
+      <ymin>63</ymin>
+      <xmax>333</xmax>
+      <ymax>459</ymax>
+    </bndbox>
+  </object>
+</annotation>

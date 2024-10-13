@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Resized</folder>
+	<filename>20210518_201252.jpg</filename>
+	<path>D:\ARTWORK\BANGKIT\Capstone Project\Data\Pepsodent\Resized\20210518_201252.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepsodent</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>218</ymin>
+			<xmax>346</xmax>
+			<ymax>302</ymax>
+		</bndbox>
+	</object>
+</annotation>

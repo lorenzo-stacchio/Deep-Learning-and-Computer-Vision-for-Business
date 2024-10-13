@@ -1,0 +1,26 @@
+<annotation>
+  <folder>Aqua-resize</folder>
+  <filename>IMG_20210518_173042_HHT</filename>
+  <path>C:\Users\USER\Documents\Dzakwan\bangkit\grab&amp;go\Dataset\Aqua-resize\IMG_20210518_173042_HHT.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>aqua</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>172</xmin>
+      <ymin>10</ymin>
+      <xmax>294</xmax>
+      <ymax>482</ymax>
+    </bndbox>
+  </object>
+</annotation>

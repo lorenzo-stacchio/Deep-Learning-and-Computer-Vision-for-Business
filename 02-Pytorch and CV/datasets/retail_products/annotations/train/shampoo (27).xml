@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Resized</folder>
+	<filename>IMG20210518191407.jpg</filename>
+	<path>D:\ARTWORK\BANGKIT\Capstone Project\Data\Shampoo\Resized\IMG20210518191407.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shampoo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>177</xmin>
+			<ymin>105</ymin>
+			<xmax>273</xmax>
+			<ymax>376</ymax>
+		</bndbox>
+	</object>
+</annotation>

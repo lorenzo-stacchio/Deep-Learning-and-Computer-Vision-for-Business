@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Resized</folder>
+	<filename>IMG20210518191303.jpg</filename>
+	<path>D:\ARTWORK\BANGKIT\Capstone Project\Data\Indomie\Resized\IMG20210518191303.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>indomie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>103</xmin>
+			<ymin>65</ymin>
+			<xmax>392</xmax>
+			<ymax>360</ymax>
+		</bndbox>
+	</object>
+</annotation>

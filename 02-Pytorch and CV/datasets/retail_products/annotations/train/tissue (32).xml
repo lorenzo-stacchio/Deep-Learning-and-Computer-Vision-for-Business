@@ -1,0 +1,26 @@
+<annotation>
+  <folder>images</folder>
+  <filename>photo_2021-05-18_21-22-43</filename>
+  <path>C:\Users\USER\Documents\Dzakwan\bangkit\grab&amp;go\Dataset\USED\tissue\images\photo_2021-05-18_21-22-43.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>tissue</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>86</xmin>
+      <ymin>180</ymin>
+      <xmax>439</xmax>
+      <ymax>329</ymax>
+    </bndbox>
+  </object>
+</annotation>
