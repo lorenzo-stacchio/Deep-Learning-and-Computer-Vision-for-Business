@@ -16,3 +16,7 @@ Check this: https://github.com/roboflow/notebooks
 # retail product dataset
 
 https://www.kaggle.com/datasets/hafizyusufheraldi/retail-product-dataset?resource=download
+
+
+https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset/data
+

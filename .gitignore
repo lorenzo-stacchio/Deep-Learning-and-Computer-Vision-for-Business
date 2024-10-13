@@ -163,3 +163,5 @@ cython_debug/
 runs/*
 # 02-Pytorch and CV/datasets/retail_products/*
 02-Pytorch and CV/CNN_finetuning/test/*
+02-Pytorch and CV/CNN_finetuning/*.pth
+02-Pytorch and CV/CNN_finetuning/FashionMNIST/*
