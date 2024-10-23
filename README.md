@@ -1,5 +1,6 @@
 # Deep Learning and Computer Vision for Business
 
+Ph.D. Course in [ECOSTATDATA at Bicocca University](https://www.unimib.it/didattica/offerta-formativa/dottorato-ricerca/corsi-dottorato/economia-statistica-e-data-science-ecostat)
 
 ![Teaser Image](./docs/teaser.webp)
 
