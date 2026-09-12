@@ -8,35 +8,37 @@ This PhD course is designed to provide an in-depth understanding of how deep lea
 
 ## Course Structure
 
-The course is divided into several modules, each focusing on different aspects of deep learning and computer vision:
+The course is divided into three modules:
 
-### 1. PyTorch and Computer Vision
-This section introduces deep learning frameworks, with a focus on PyTorch. It covers basic Convolutional Neural Networks (CNNs) and their applications in computer vision.
+### [00 — OpenCV](./00_OpenCV/)
 
-**Subfolders:**
-- **any_semantic_segmentation:** Explore semantic segmentation techniques with sample images.
-- **basic_CNN:** Learn the fundamentals of CNN architecture.
-- **CNN_finetuning:** Learn how to fine-tune pre-trained models, with datasets such as FashionMNIST.
+Classical image processing: the operations that come before any neural network, and
+that still solve a surprising share of real problems on their own.
 
-### 2. Datasets and Retail Product Recognition
-Learn to handle and preprocess retail product datasets for training deep learning models. Explore object detection and tracking techniques specifically tailored for retail environments.
+### [01 — PyTorch](./01-Pytorch/)
 
-**Subfolders:**
-- **datasets/retail_products:** Contains images and annotations for retail products, divided into training and testing sets.
-    - **annotations:** Annotations for the retail product dataset, split into train and test sets.
-    - **images:** Product images used for training and testing.
+The framework itself: tensors, autograd, modules, and the anatomy of a training loop.
 
-### 3. Human Pose Estimation
-Dive into human pose estimation techniques and their business applications, such as enhancing retail experiences or monitoring physical activities.
+### [02 — PyTorch and Computer Vision](./02-Pytorch%20and%20CV/)
 
-**Subfolders:**
-- **human_pose_estimation:** Files related to human pose estimation projects.
+The core of the course, organised **by computer vision task**. Each folder answers a
+different question about the same image, and the answers build on each other.
 
-### 4. Object Detection and Tracking
-Advanced methods for detecting and tracking objects in images and video streams, with practical business applications in areas such as inventory management and customer behavior analysis.
+| # | Task | Question | Contents |
+| --- | --- | --- | --- |
+| [01](./02-Pytorch%20and%20CV/01_classification/) | **Classification** | *What* is in the image? | CNN fundamentals on FashionMNIST; transfer learning with pretrained `torchvision` backbones |
+| [02](./02-Pytorch%20and%20CV/02_detection/) | **Object detection** | *What* and *where*? | YOLO with Ultralytics; a full YOLOv12 walkthrough on the course's retail dataset; the same task via MMDetection |
+| [03](./02-Pytorch%20and%20CV/03_tracking/) | **Tracking** | *Where does it go* across frames? | `model.track()` on shopping-mall footage, then retail analytics: footfall counting, spatial heatmaps, trajectory clustering |
+| [04](./02-Pytorch%20and%20CV/04_segmentation/) | **Segmentation** | *Which pixels* belong to it? | zero-shot annotation with Grounding DINO + SAM |
+| [05](./02-Pytorch%20and%20CV/05_pose_estimation/) | **Pose estimation** | *How is the body arranged*? | human pose estimation with AlphaPose |
 
-**Subfolders:**
-- **object_detection_tracking:** Resources for implementing object detection and tracking models.
+Shared across the module:
+
+- **[`datasets/retail_products/`](./02-Pytorch%20and%20CV/datasets/retail_products/)** — 380 images (512×512) of 6 supermarket products annotated in Pascal VOC format, split 294 train / 86 test. Classes: `aqua`, `chitato`, `indomie`, `pepsodent`, `shampoo`, `tissue`. Used by the detection notebooks.
+- **[`assets/`](./02-Pytorch%20and%20CV/assets/)** — figures shared across notebooks.
+
+Every notebook runs on Google Colab (badge at the top of each notebook) as well as
+locally in the cloned repo.
 
 ## Other Resources
 
